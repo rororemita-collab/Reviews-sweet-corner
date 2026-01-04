@@ -1,4 +1,3 @@
-# Reviews-sweet-corner
 <?php include "config.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -168,7 +167,70 @@
 
  
 
-    
+ 
+.reviews-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+
+.reviews-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+
+.review-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.review-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid  rgb(116, 39, 39);
+}
+
+.review-header h3 {
+    color:  rgb(116, 39, 39);
+    margin-bottom: 5px;
+}
+
+.stars {
+    color:  rgb(237, 173, 25);
+    font-size: 16px;
+}
+
+
+.review-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color:black;
+}  
 
 </body>
 </html>
